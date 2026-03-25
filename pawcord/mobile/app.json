@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Pawcord",
+    "slug": "pawcord",
+    "version": "1.0.0",
+    "scheme": "pawcord",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0f1117"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.pawcord.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0f1117"
+      },
+      "package": "com.pawcord.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-document-picker"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
